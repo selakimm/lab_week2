@@ -1,0 +1,20 @@
+/* TODO */
+button {
+    width: 250px;
+    height: 95px;
+    margin: 100px 100px;
+    border-radius: 30px;
+    border: 7px solid #E070B8;
+    background-color: #FF80D6;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+
+}
+button:hover {
+    cursor: pointer;
+    border: 7px solid #723A5E;
+    background-color: #AD5589;
+}
