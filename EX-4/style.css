@@ -1,0 +1,79 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: gray;
+}
+
+p {
+    text-align: center;
+}
+
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.menu {
+    position: absolute;
+    font-size: 24px;
+    color: black;
+    top: 14px; 
+    right: 14px;
+}
+
+.pfp {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.name {
+    font-size: 30px;
+    margin: 0px;
+    color: black;
+}
+
+.job {
+    margin: 0px 0px 10px;
+
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.topic {
+    color: black;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.viewprofile {
+    width: 250px;
+    height: 56px;
+    border: none;                        
+    border-radius: 12px;                  
+    background-color: #2563EB;            
+    display: block;
+    margin: 20px auto;                   
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;                
+    color: #FFFFFF;
+    box-sizing: border-box;
+    transition: all 0.2s ease;
+}
+
+.viewprofile:hover {
+    background-color: #1c46bc;            /* darker blue */
+    transform: translateY(-5px);          /* lifts up slightly */
+}
+
+.menu:hover {
+    color: gray;
+}
